@@ -1,0 +1,64 @@
+﻿@model crud_web.Models.Cliente
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+
+<h3>Você deseja deletar cliente?</h3>
+<div>
+    <br />
+    <h4>Deletar</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Nome: 
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nome)
+        </dd>
+
+        <dt>
+            Data de nascimento: 
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dt_nascimento)
+        </dd>
+
+        <dt>
+            Telefone: 
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.telefone)
+        </dd>
+
+        <dt>
+            E-mail: 
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.email)
+        </dd>
+
+        <dt>
+            Cidade: 
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cidade)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Deletar" class="btn btn-default" /> |
+            @Html.ActionLink("Voltar para lista de clientes", "Index")
+        </div>
+    }
+</div>

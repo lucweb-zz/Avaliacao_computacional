@@ -1,0 +1,58 @@
+﻿@model crud_web.Models.Cliente
+
+@{
+    ViewBag.Title = "Details";
+}
+
+
+<div>
+    <br />
+    <h4>Detalhes</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Nome: 
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nome)
+        </dd>
+
+        <dt>
+            Data de nascimento: 
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dt_nascimento)
+        </dd>
+
+        <dt>
+            Telefone: 
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.telefone)
+        </dd>
+
+        <dt>
+            E-mail: 
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.email)
+        </dd>
+
+        <dt>
+            Cidade: 
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cidade)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Voltar para lista de clientes", "Index")
+</p>
