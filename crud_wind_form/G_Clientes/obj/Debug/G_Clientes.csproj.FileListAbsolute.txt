@@ -1,0 +1,14 @@
+C:\Users\lucas\source\repos\G_Clientes\G_Clientes\bin\Debug\G_Clientes.exe.config
+C:\Users\lucas\source\repos\G_Clientes\G_Clientes\bin\Debug\G_Clientes.exe
+C:\Users\lucas\source\repos\G_Clientes\G_Clientes\bin\Debug\G_Clientes.pdb
+C:\Users\lucas\source\repos\G_Clientes\G_Clientes\obj\Debug\G_Clientes.Form1.resources
+C:\Users\lucas\source\repos\G_Clientes\G_Clientes\obj\Debug\G_Clientes.Properties.Resources.resources
+C:\Users\lucas\source\repos\G_Clientes\G_Clientes\obj\Debug\G_Clientes.csproj.GenerateResource.Cache
+C:\Users\lucas\source\repos\G_Clientes\G_Clientes\obj\Debug\G_Clientes.csproj.CoreCompileInputs.cache
+C:\Users\lucas\source\repos\G_Clientes\G_Clientes\obj\Debug\G_Clientes.exe
+C:\Users\lucas\source\repos\G_Clientes\G_Clientes\obj\Debug\G_Clientes.pdb
+C:\Users\lucas\source\repos\G_Clientes\G_Clientes\obj\Debug\G_Clientes.csprojResolveAssemblyReference.cache
+C:\Users\lucas\source\repos\G_Clientes\G_Clientes\bin\Debug\G_Clientes.exe.manifest
+C:\Users\lucas\source\repos\G_Clientes\G_Clientes\bin\Debug\G_Clientes.application
+C:\Users\lucas\source\repos\G_Clientes\G_Clientes\obj\Debug\G_Clientes.exe.manifest
+C:\Users\lucas\source\repos\G_Clientes\G_Clientes\obj\Debug\G_Clientes.application
